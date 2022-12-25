@@ -16,42 +16,42 @@ let players : Players= ["messi", "ronaldo", 3344, true, "neymar"];
 // };
 // const result = add(10, 30);
 
-type Address={
-        presentAddress:string;
-        permanentAddress:string;
-    }
+// type Address={
+//         presentAddress:string;
+//         permanentAddress:string;
+//     }
 
-type Favourite= {
-        type: "food" |"player" | "singer" |'actor' ;
-        value: string;
-    }
-type Person ={
-    name: string;
-    email:string;
-    age: number ;
-    phone: string | string[] ;
-    address :Address;
-    favorites : Favourite[];
-};
+// type Favourite= {
+//         type: "food" |"player" | "singer" |'actor' ;
+//         value: string;
+//     }
+// type Person ={
+//     name: string;
+//     email:string;
+//     age: number ;
+//     phone: string | string[] ;
+//     address :Address;
+//     favorites : Favourite[];
+// };
 
 
-const person: Person={
-    name: "sifat",
-    email: "sifat@gmail.com",
-    age:33,
-    phone: ["123"],
-    address: {
-        presentAddress:"dhaka",
-        permanentAddress:"barishal"
-    },
-    favorites:[
-        {
-        type: "food",
-        value: "biriani",
-        },
-        {
-        type: "player",
-        value: "sakib",
-        },
-]
-}
+// const person: Person={
+//     name: "sifat",
+//     email: "sifat@gmail.com",
+//     age:33,
+//     phone: ["123"],
+//     address: {
+//         presentAddress:"dhaka",
+//         permanentAddress:"barishal"
+//     },
+//     favorites:[
+//         {
+//         type: "food",
+//         value: "biriani",
+//         },
+//         {
+//         type: "player",
+//         value: "sakib",
+//         },
+// ]
+// }
