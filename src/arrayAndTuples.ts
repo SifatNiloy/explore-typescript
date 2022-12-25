@@ -1,6 +1,6 @@
 // let players: string[];
-let players: (string| number | boolean)[];
-players=["Messi", "Ronaldo", "2454"];
+// let players: (string| number | boolean)[];
+// players=["Messi", "Ronaldo", "2454"];
 // players[0]="De Maria"
 // players=656;
 // players=false

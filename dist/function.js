@@ -19,13 +19,9 @@
 // const add = (...numbers:number[]): number => {
 //   return numbers.reduce((pre,cur)=>pre+cur,0);
 // };
-var add = function () {
-    var numbers = [];
-    for (var _i = 0; _i < arguments.length; _i++) {
-        numbers[_i] = arguments[_i];
-    }
-    var func = function (pre, cur) { return pre + cur; };
-    return numbers.reduce(func, 0);
-};
-var result = add(10, 30, 24, 56, 65, 25);
-console.log(result);
+// const add = (...numbers:number[]): number => {
+//   const func = (pre:number, cur:number) => pre + cur
+//   return numbers.reduce(func, 0);
+// };
+// const result = add(10, 30,24,56,65,25);
+// console.log(result)
