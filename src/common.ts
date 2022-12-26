@@ -11,4 +11,4 @@ interface User {
     name: 'user',
     email: 'user@gmail.com'
  }
- const friends= ["Arif", "John"] as const;
+//  const friends= ["Arif", "John"] as const;

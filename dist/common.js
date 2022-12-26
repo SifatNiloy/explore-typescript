@@ -5,4 +5,4 @@ user = {
     name: 'user',
     email: 'user@gmail.com'
 };
-var friends = ["Arif", "John"];
+//  const friends= ["Arif", "John"] as const;
